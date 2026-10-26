@@ -3,8 +3,8 @@
 #include <zephyr/drivers/gpio.h>        // API para controle de pinos de entrada/saida (GPIO)
 #include <pwm_z42.h>                    // Biblioteca personalizada com funcoes de controle do TPM (Timer/PWM Module)
 
-#define TEMP1 350                       // 1s
-#define TEMP2 150                       // 350ms
+#define TEMP1 1000                     // 1s
+#define TEMP2 350                       // 350ms
 #define TPM_MODULE 1000                 // Define a frequencia do PWM
 #define STACK_SIZE 512                  // Tamanho da pilha da thread
 #define PRIORITY_RED   5
