@@ -4,6 +4,7 @@
 #include <zephyr/device.h>
 
 // --- Configuração de LEDs via DeviceTree ---
+
 #define LED_A_NODE DT_ALIAS(led0)  // LED verde
 #define LED_B_NODE DT_ALIAS(led2)  // LED vermelho
 
